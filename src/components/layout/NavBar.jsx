@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const NavBar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => setIsMenuOpen((prev) => !prev)
+  const closeMenu = () => setIsMenuOpen(false)
+
   return (
     <header className="navbar">
       <div className="navbar__brand">
@@ -8,14 +13,26 @@ const NavBar = () => {
         <span className="navbar__title">Elizabeth Ekundayo</span>
       </div>
 
-      <nav className="navbar__nav">
-        <a href="#about">About</a>
-        <a href="#work">Services</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contacts</a>
+      <button
+        className="navbar__menu-toggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded={isMenuOpen}
+        onClick={toggleMenu}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+
+      <nav className={`navbar__nav ${isMenuOpen ? 'is-open' : ''}`}>
+        <a href="#about" onClick={closeMenu}>About</a>
+        <a href="#work" onClick={closeMenu}>Services</a>
+        <a href="#products" onClick={closeMenu}>Products</a>
+        <a href="#contact" onClick={closeMenu}>Contacts</a>
       </nav>
 
-      <a className="navbar__cta" href="#contact">Hire Me</a>
+      <a className="navbar__cta" href="#contact" onClick={closeMenu}>Hire Me</a>
     </header>
   )
 }
