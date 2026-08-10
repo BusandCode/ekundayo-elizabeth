@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section className="section about-section" id="about">
       <div className="section-header">
         <p className="section-label">About</p>
-        <h2 className="section-title">I build fintech products with clarity and trust.</h2>
+        <h2 className="section-title">Get to know me.</h2>
       </div>
 
       <div className="about-layout">
@@ -15,10 +15,10 @@ const AboutSection = () => {
             Today, I build digital financial products with an Agile mindset, combining user insight, strategy, and execution to create products that people trust and businesses grow with.
           </p>
 
-          <p className="section-copy">
+          {/* <p className="section-copy">
             I translate customer insights into product strategies and deliver solutions that create measurable value for users and businesses.
             My background helps me connect product, marketing, and operations into one clear path from idea to launch.
-          </p>
+          </p> */}
 
           <div className="about-highlights">
             <div className="about-card">

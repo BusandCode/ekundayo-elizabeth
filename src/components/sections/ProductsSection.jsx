@@ -88,6 +88,24 @@ const ProductsSection = () => {
             </p>
           </div>
         </article>
+
+        <article className="product-card">
+          <div className="product-image product-image--photo">
+            <img
+              src="/images/products/dinepoint.png"
+              alt="DinePoint kitchen order dashboard"
+              className="product-image__screenshot"
+            />
+          </div>
+          <div className="product-card__content">
+            <h3>DinePoint</h3>
+            <p>
+              A restaurant management SaaS platform for order management, QR code ordering, digital menus,
+              payment processing, inventory tracking, and business analytics. Led as Product Manager — product
+              strategy, requirements, feature prioritization, and cross-functional delivery with engineering and design.
+            </p>
+          </div>
+        </article>
       </div>
     </section>
   )

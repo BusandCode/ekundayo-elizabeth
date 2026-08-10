@@ -13,12 +13,14 @@ const App = () => {
       <main className="page-content">
         <section className="hero-section" id="home">
           <div className="hero-copy">
-            <p className="eyebrow">Portfolio</p>
-            <h1>Get to know me.</h1>
-            <p>
-              Howdy, I'm Elizabeth. I've worn a few hats throughout my career from customer support to marketing and now product management.
-              Today, I build digital financial products with an Agile mindset, combining user insight, strategy, and execution to create products that people trust and businesses grow with.
-            </p>
+            <h1>Hi, I'm Elizabeth</h1>
+            <p className="hero-lead">A builder of products. A builder of businesses.</p>
+            <p className="hero-subtitle">Turning customer problems into products that drive business growth.</p>
+            <p className="hero-detail">I translate customer insight into clear product strategies, delivering solutions that scale and strengthen teams.</p>
+            <div className="hero-actions">
+              <a className="hero-cta hero-cta--primary" href="#work">See my work</a>
+              <a className="hero-cta hero-cta--secondary" href="#contact">Talk with me</a>
+            </div>
             <div className="hero-highlights">
               <div>
                 <strong>2+</strong>
