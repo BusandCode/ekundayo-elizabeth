@@ -7,7 +7,7 @@ const ContactSection = () => {
         <p className="section-label">Get In Touch</p>
         <h2 className="section-title">Contact Me</h2>
         <p className="section-copy">
-          Let's get started on your project. I’m available for product management and fintech strategy work, especially where design, user insight, and agile delivery come together.
+          Let's get started on your project. I'm available for product management and fintech strategy work, especially where design, user insight, and agile delivery come together.
         </p>
       </div>
 
@@ -17,9 +17,9 @@ const ContactSection = () => {
             <div className="contact-method-icon">✉️</div>
             <div>
               <p className="contact-method-title">Email</p>
-              <p className="contact-method-text">hello@elizabethekundayo.com</p>
+              <p className="contact-method-text">ekundayoelizabeth43@gmail.com</p>
             </div>
-            <a className="contact-method-action" href="mailto:hello@elizabethekundayo.com">
+            <a className="contact-method-action" href="mailto:ekundayoelizabeth43@gmail.com">
               Send a message
             </a>
           </div>
@@ -30,21 +30,33 @@ const ContactSection = () => {
               <p className="contact-method-title">LinkedIn</p>
               <p className="contact-method-text">Elizabeth Ekundayo</p>
             </div>
-            <a className="contact-method-action" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <a 
+              className="contact-method-action" 
+              href="https://www.linkedin.com/in/elizabeth-ekundayo-b5b5b4392?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+              target="_blank" 
+              rel="noreferrer"
+            >
               View profile
             </a>
           </div>
 
           <div className="contact-method-card">
-            <div className="contact-method-icon">🐙</div>
+            <div className="contact-method-icon">📸</div>
             <div>
-              <p className="contact-method-title">GitHub</p>
-              <p className="contact-method-text">elizabeth-ekundayo</p>
+              <p className="contact-method-title">Instagram</p>
+              <p className="contact-method-text">@ears_that_listen</p>
             </div>
-            <a className="contact-method-action" href="https://github.com" target="_blank" rel="noreferrer">
+            <a 
+              className="contact-method-action" 
+              href="https://www.instagram.com/ears_that_listen?igsi=MXdnN2RvOXZnZm81dQ==" 
+              target="_blank" 
+              rel="noreferrer"
+            >
               View profile
             </a>
           </div>
+
+          {/* GitHub removed as requested */}
         </div>
 
         <div className="contact-form">
