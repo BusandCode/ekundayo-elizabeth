@@ -44,11 +44,11 @@ const AboutSection = () => {
 
         <div className="about-panel">
           <div className="about-visual">
-            <div className="about-visual-frame">
-              <div className="about-visual-block" />
-              <div className="about-visual-line" />
-              <div className="about-visual-line short" />
-            </div>
+            <img
+              src="/hero.jpeg"
+              alt="Elizabeth Ekundayo"
+              className="about-visual-photo"
+            />
           </div>
 
           <div className="about-meta">

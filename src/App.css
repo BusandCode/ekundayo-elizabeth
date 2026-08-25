@@ -1057,3 +1057,20 @@ body {
     padding: 0.9rem 1rem;
   }
 }
+.about-visual {
+  min-height: 420px;
+  background: #111;
+  border-radius: 32px;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.about-visual-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
