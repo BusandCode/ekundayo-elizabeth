@@ -799,16 +799,26 @@ body {
   .navbar__nav {
     display: none;
     width: 100%;
-    justify-content: center;
-    gap: 0.7rem 1rem;
     order: 3;
-    flex-wrap: wrap;
     padding: 0.6rem 0 0.2rem;
   }
 
   .navbar__nav.is-open {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .navbar__nav a {
+    width: 100%;
+    padding: 0.9rem 0;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .navbar__nav a:last-child {
+    border-bottom: none;
   }
 
   .navbar__cta {
